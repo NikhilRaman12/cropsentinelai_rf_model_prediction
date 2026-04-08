@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+*.pem
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and container artifacts
+*.log
+*.lock
+*.pid
+*.gz
+*.zip
+*.tar
+*.tgz
+*.bak
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Docker
+*.dockerfile
